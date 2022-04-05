@@ -1,4 +1,4 @@
-# Line hyphen - \
+# Line hyphen -> \
 # Block code
 # Quotation (Quotations can be used for code comments)
 quotation_1 = 'This is quotation!'
@@ -20,3 +20,22 @@ print(quotation_3)
 - Tuple
 - Dictionary
 '''
+
+# Access memory address
+memory_address = 10 
+id(memory_address)
+
+# The difference between del x and x=x+1 in memory
+
+# Operator
+'''
+1. Arithmetic Operator
+2. Assignment Operator
+3. Bitwise Operator
+4. Comparison Operator
+5. Identity Operator
+6. Logical Operator
+7. Membership Operator
+'''
+
+# Operand
