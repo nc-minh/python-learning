@@ -1,6 +1,8 @@
+from random import choice
 # Line hyphen -> \
 # Block code
 # Quotation (Quotations can be used for code comments)
+
 quotation_1 = 'This is quotation!'
 quotation_2 = "This is Ming's quotation!"
 quotation_3 = '''We don't
@@ -39,3 +41,43 @@ id(memory_address)
 '''
 
 # Operand
+
+# For
+x = [1, 2, 3]
+xx = ('one', 'two', 'three')
+xxx = range(10, 20)
+for i in xxx:
+    print(i)
+
+# String
+s = 'python'
+chr(1)
+repr(s)
+str(s)
+
+# => handle string
+choice(s)
+c = s.center(20, "-")
+l = s.ljust(20, "-")
+r = s.rjust(20, "-")
+s.count('py')
+
+# operator %
+'''
+%s => str -> str
+%i => int -> int
+%d => int -> str
+%u => int -> str
+%x => hex -> str
+%e => exp -> str
+%f => float -> str
+'''
+num = 12.3
+print(type(num))
+yNum = "%d" %(num)
+print(type(yNum))
+
+strName = 'This is text'
+Num = 123
+xText = 'Test %s %d' %(strName, Num)
+print(xText)
