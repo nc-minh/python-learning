@@ -81,3 +81,22 @@ strName = 'This is text'
 Num = 123
 xText = 'Test %s %d' %(strName, Num)
 print(xText)
+
+# 
+str1 = ['a', 'b']
+str2 = [1, 2, 3]
+str3 = str1 + str2
+str4 = str1.extend(str2)
+print(str3)
+'''
+=> The difference between str3 and str4 is that str4 does not generate memory addresses
+'''
+
+# Type
+a = input('Type a number: ')
+print(a)
+
+# Hash
+# hashable <=> unhashable(list, set, dict)
+
+# Set type -> like list, tuple, (no duplicate, no order, not include mutable)
