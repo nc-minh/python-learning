@@ -1,4 +1,5 @@
 from random import choice
+from module import sayHi
 # Line hyphen -> \
 # Block code
 # Quotation (Quotations can be used for code comments)
@@ -92,11 +93,24 @@ print(str3)
 => The difference between str3 and str4 is that str4 does not generate memory addresses
 '''
 
-# Type
-a = input('Type a number: ')
-print(a)
-
 # Hash
 # hashable <=> unhashable(list, set, dict)
 
 # Set type -> like list, tuple, (no duplicate, no order, not include mutable)
+'''
+Set with intersection(&), union(|), difference(-), symmetric(^)
+'''
+
+# Dict
+total = ["Director", "Secretary", "Security"]
+d = dict.fromkeys(total)
+print(d)
+
+# User defined function
+def sayHello(name):
+    return "Hello: " + name
+# Module
+sayHi('Ming')
+print(sayHi('Ming'))
+
+# Python with file i/o
