@@ -114,3 +114,15 @@ sayHi('Ming')
 print(sayHi('Ming'))
 
 # Python with file i/o
+
+# Class
+class students: 
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+
+student = students("minh", 1)
+print(student.name)
+'''
+use _ or __ to encapsulation 
+'''
